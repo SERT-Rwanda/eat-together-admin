@@ -1,0 +1,27 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fancy-border {
+  width: 250px;
+  height: 5px;
+  text-align:center;
+  border-top: 5px solid;
+  border-image:   linear-gradient(to right, #C52627 65%, #C52627 65%, #EA4535 80%,#EA4535 80%, #F9BC15 90%,#F9BC15 90%) 5;
+}
+
+.darked {
+	background-color: #ccc;
+}
+
+.tech-box {
+	height: auto;
+	margin-bottom: 10px;
+  background-color: #fff;
+	border: 1px solid;
+	border-image:   linear-gradient(to right, #C52627 65%, #C52627 65%, #EA4535 80%,#EA4535 80%, #F9BC15 90%,#F9BC15 90%) 5;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+

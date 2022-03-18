@@ -28,9 +28,23 @@
             ],
             "styles": [
               "src/styles.css",
-              "node_modules/ngx-toastr/toastr.css" // try adding '../' if you're using angular cli before 6
+              "src/assets/plugins/custom/prismjs/prismjs.bundle.css",
+              "src/assets/plugins/global/plugins.bundle.css",
+              "src/assets/css/style.bundle.css",
+              "node_modules/ngx-toastr/toastr.css",
+              "src/assets/vendor/themify/themify.css",
+              "src/assets/vendor/swiper/swiper.min.css",
+              "src/assets/themify/themify.css",
+              "src/assets/css/global/global.css",
+              "src/assets/css/mine.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/plugins/global/plugins.bundle.js",
+              "src/assets/js/scripts.bundle.js",
+              "src/assets/plugins/custom/prismjs/prismjs.bundle.js",
+              "src/assets/js/custom/documentation/documentation.js",
+              "src/assets/js/custom/modals/users-search.js"
+            ]
           },
           "configurations": {
             "production": {

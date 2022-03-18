@@ -1,0 +1,60 @@
+/* (A) UPLOAD ZONE */
+#upzone {
+	width: 520px; 
+	height: 120px; 
+	border: 2px dashed #1DB574;
+	font-size: 14px;
+	text-align: center;
+	color : #1DB574;
+	border-radius : 20px;
+	line-height: 30px;
+
+}
+#upzone.highlight {
+	background: #E7F4EE;
+	color : #1DB574;
+}
+
+/* (B) UPLOAD FORM */
+#upform {
+	display: none;
+}
+
+
+.container2{
+        width: 100%;
+        height: 120px;
+        position: relative;
+        margin-bottom: 10px;
+    }
+    .box{
+        width: 100%;
+        height: 100%;            
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0.8;  /* for demo purpose  */
+    }
+    .stack-top{
+        z-index: 9;
+        width: 480px;
+        height: 40px;
+        margin-top : 40px;
+        margin-right : 20px;
+        margin-left : 20px;
+        text-align : center;
+    }
+
+    #upstat {
+    	width: 520px;
+        height: 30px;
+        background-color: #ccc;
+    }
+
+    .declare {
+    	width: 520px;
+    	margin : 10px;
+    	border : 1px solid #ccc;
+    	padding: 10px;
+    }
+
